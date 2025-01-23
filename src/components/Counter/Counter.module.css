@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding-inline: 20px;
+  border-radius: 8px;
+  height: 300px;
+  box-shadow: 5.3px 10.6px 10.6px hsl(0deg 0% 0% / 0.34);
+}
+
+.count {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}

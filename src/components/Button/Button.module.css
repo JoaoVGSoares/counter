@@ -1,0 +1,14 @@
+.button {
+  border-radius: 4px;
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  border: 1px solid;
+  background-color: hsl(311 25% 88%);
+  &:hover {
+    background-color: hsl(311 25% 84%);
+  }
+  &:focus {
+    outline-offset: 4px;
+  }
+}

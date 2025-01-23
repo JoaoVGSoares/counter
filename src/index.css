@@ -1,0 +1,15 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: hsl(166 58% 37%);
+  min-height: 100vh;
+  place-items: center;
+}
+
+p {
+  margin: 0;
+}
